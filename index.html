@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title> Quiz Project</title>
+</head>
+
+<body>
+    <nav>
+        <a id=leaderboard>View Highscores 
+            <i class="fas fa-hand-point-left fa-lg"></i>
+        </a>
+        <a>Timeleft:<span id="timeLeft">10:00</span></a>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="container_heading">
+                <h2 >Coding Quiz Challenge</h2>
+            </div>
+            <div class="question-container" id="question-container">
+                <h3 id="questions" >Welcome to coding Challenge start the Quiz by using start button</h3>
+             <ul class="choice_list">
+                <li class="choice_list_content" id="">answer</li>
+                <li class="choice_list_content" id="">answer</li>
+                <li class="choice_list_content" id="">answer</li>
+                <li class="choice_list_content" id="">answer</li>
+             </ul>
+            </div>
+        <div class="controls"> 
+            <button id="start-btn" class="start-btn" >Start</button>
+            <button id="next-btn"  class="next-btn">Next</button>
+        </div>
+       
+        <div id="result"></div>
+        </div>
+        
+        
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
